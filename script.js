@@ -51,7 +51,7 @@ async function getWeather(city) {
         weatherResult.innerHTML = `
             <div class="weather-card">
                 <h2>${cityName}, ${country}</h2>
-                <p>Temperature: ${currentWeather.temperature}°C</p>
+                <p>Temperature: ${currentWeather.temperature} Celsius </p>
                 <p>Wind Speed: ${currentWeather.windspeed} km/h</p>
                 <p>Weather Code: ${currentWeather.weathercode}</p>
             </div>
